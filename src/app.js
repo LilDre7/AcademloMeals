@@ -28,17 +28,25 @@ const globalErrorHandler = require("./controllers/error.controller");
 // ** Routes ** //
 const userRoutes = require("./routes/users.routes");
 const restaurantsRoute = require("./routes/restaurants.routes");
-const ordersRoute = require("./routes/orders.routes");
-const mealsRoute = require("./routes/meals.routes");
+// const mealsRoute = require("./routes/meals.routes");
+// const ordersRoute = require("./routes/orders.routes");
 
-// Routes users
+// Router for users
 app.use("/api/v1/users", userRoutes);
 
-// Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, molestiae vitae possimus consequuntur earum harum facilis hic porro fugiat, corrupti quidem ea eius iusto quia nihil repudiandae numquam magnam odit.
-// Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora excepturi cum adipisci fuga quisquam aspernatur! Totam odio deserunt officia, aperiam praesentium veritatis expedita labore, numquam quasi eum dolores similique ducimus!
+// Router for restaurant
+app.use("/api/v1/restaurants", restaurantsRoute);
 
-// !! Para todas las rutas que no sea correctas
+// Router for meals
+// app.use("/api/v1/meals", mealsRoute);
+
+// Router for orders
+// app.use("/api/v1/orders", ordersRoute);
+
+// ** Middleware de errores ** //
+
 app.use("*", (req, res, next) => {
+  // !! Para todas las rutas que no sea correctas
   return next(
     new AppError(
       `La ruta es incorrecta o no valida ${req.originalUrl} 🚑 `,

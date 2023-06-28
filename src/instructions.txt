@@ -1,0 +1,6 @@
+// TODO: Cosas que no logre o esta dificil 🥷🏾⚔️
+
+
+Parte ==> 1
+* El endpoint /orders y /orders/:id, debe buscar las órdenes del usuario en sesión (del token que se envió), extraer el id del token y usarlo para buscar dichas órdenes.
+

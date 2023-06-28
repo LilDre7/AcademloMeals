@@ -18,9 +18,10 @@ const Restaurant = db.define("restaurants", {
     allowNull: false,
   },
   rating: {
+    // El rating es de 1 a 5 👁️
     type: DataTypes.INTEGER,
     allowNull: false,
-    defaultValue: 0,
+    defaultValue: 5,
   },
   status: {
     type: DataTypes.BOOLEAN,
