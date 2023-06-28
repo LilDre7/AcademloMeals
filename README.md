@@ -44,8 +44,4 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
 ## Autor
 
-[Nombre del Autor]
-
-## Licencia
-
-Este proyecto está bajo la licencia [Nombre de la Licencia].
+[Lil Dree -Alvaro Aburto Ocampo]
