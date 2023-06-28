@@ -44,4 +44,4 @@ Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
 ## Autor
 
-🥷🏾 Lil Dree -Alvaro Aburto Ocampo
+🥷🏾 Lil Dree - Alvaro Aburto Ocampo
