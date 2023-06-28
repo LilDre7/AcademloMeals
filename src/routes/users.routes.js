@@ -15,10 +15,12 @@ const validateUser = require("../middlewares/userValidate.middleware");
 // http://localhost:8080/api/v1/users
 
 // Rutas para el usuario
+// == CREATE ✅
 router
   .route("/signup")
   .post(validateUser.validateUser, userControl.signup);
 
+// == LOGIN ✅
 router.route("/login").post(userControl.login);
 
 // == Estas routas son protegidas por un JWT de autenticacion == //
@@ -26,20 +28,23 @@ router.route("/login").post(userControl.login);
 // Proteccion para las rutas del usuario
 router.use(auth.protect);
 
-// == UDAPTE
+// == UDAPTE ✅
 router
   .route("/:id")
   .patch(auth.protectAccountOwner, userControl.updateUser);
 
-// == DISABLE
+// == DISABLE ✅
 router
   .route("/:id")
-  .delete(auth.protectAccountOwner, userControl.disableUser);
+  .delete(
+    auth.protectAccountOwner,
+    userControl.disableUser
+  );
 
-// == GET USER BY ID == ALL ORDERS
+// == GET USER BY ID == ALL ORDERS ✅
 router.route("/:orders").get(userControl.getOrderByUser);
 
-// == GET ORDER BY ID == ORDER FOR ID
+// == GET ORDER BY ID == ORDER FOR ID ✅
 router.route("/orders/:id").get(userControl.getOrderById);
 
 module.exports = router;

@@ -5,37 +5,46 @@ const router = express.Router();
 // Importaciones de los controladores del restarante
 const controlRest = require("../controllers/restaurant.controller");
 
+// Importaciones del auth de los middlewares para proteger rutas
+const auth = require("../middlewares/auth.middleware");
+
 // Direccion en PostMan
 // http://localhost:8080/api/v1/users
 
 // Rutas para el restaurante 🌱
 
-// == CREATE
+// == CREATE ✅
 router.route("/").post(controlRest.createRestaurant);
 
-// == GET ALL
+// == GET ALL ✅
 router.route("/").get(controlRest.getAllRestaurants);
 
-// == GET FOR ID
+// == GET FOR ID ✅
 router.route("/:id").get(controlRest.getRestaurantById);
 
-// == UPDATE FOR ID
-router.route("/:id").put(controlRest.updateRestaurantById);
+// == UPDATE FOR ID ✅
+router
+  .route("/:id")
+  .patch(controlRest.updateRestaurantById);
 
-// == DELETE FOR ID
-router.route("/:id").delete(controlRest.deleteRestaurantById);
+// == DELETE FOR ID ✅
+router
+  .route("/:id")
+  .delete(controlRest.deleteRestaurantById);
 
-// == POST FOR REVIEWS OF ID
-router.route("/reviews/:id").post(controlRest.createReview);
+// == POST FOR REVIEWS OF ID ✅
+router
+  .route("/reviews/:id")
+  .post(auth.protect, controlRest.createReview);
 
-// == PATCH FOR REVIEWS OF RESTAURANTID OF ID
+// == UPDATE FOR REVIEWS OF RESTAURANTID OF ID ✅
 router
   .route("/reviews/:restaurantId/:id")
-  .patch(controlRest.updateReview);
+  .patch(auth.protect, controlRest.updateReview);
 
-// == DELETE FOR REVIEWS OF RESTAURANTID OF ID
+// == DELETE FOR REVIEWS OF RESTAURANTID OF ID ✅
 router
   .route("/reviews/:restaurantId/:id")
-  .delete(controlRest.deleteReview);
+  .delete(auth.protect, controlRest.deleteReview);
 
 module.exports = router;

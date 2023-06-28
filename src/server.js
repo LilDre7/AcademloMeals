@@ -2,6 +2,7 @@ require("dotenv").config();
 const colors = require("colors");
 const { db } = require("./db/config");
 const app = require("./app");
+const initModel = require("./models/initModel");
 
 // !! Aqui vamos a verificar si la base de datos esta conectada //
 db.authenticate()
@@ -12,8 +13,13 @@ db.authenticate()
     console.log(err);
   });
 
+// !! Este initModel lo hacemos para realizar nuestra base de datos !! //
+initModel();
+
 db.sync({ force: false })
-  .then(() => console.log(" 🐮 Database synced 🌞 ".bgBlue.bold))
+  .then(() =>
+    console.log(" 🐮 Database synced 🌞 ".bgBlue.bold)
+  )
   .catch((err) => console.log(err));
 
 // Aqui escuchamos nuestro puerto //

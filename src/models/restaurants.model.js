@@ -24,8 +24,9 @@ const Restaurant = db.define("restaurants", {
     defaultValue: 5,
   },
   status: {
-    type: DataTypes.BOOLEAN,
+    type: DataTypes.ENUM("active", "inactive"),
     allowNull: false,
+    defaultValue: "active",
   },
 });
 

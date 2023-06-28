@@ -58,7 +58,10 @@ exports.login = catchAsync(async (req, res, next) => {
   });
 
   if (!user)
-    next(new AppError("El usuario buscado no exite 🦊"), 400);
+    next(
+      new AppError("El usuario buscado no exite 🦊"),
+      400
+    );
 
   // Validar si la contraseña es correcta
   // De esta forma evaluamos que la contraseña sea correcta, esto se hace con validaciones de bcrypt
@@ -129,7 +132,10 @@ exports.updateUser = catchAsync(async (req, res, next) => {
       );
     else
       next(
-        new AppError("Error al actualizar el usuario 🦊", 500)
+        new AppError(
+          "Error al actualizar el usuario 🦊",
+          500
+        )
       );
   }
 });
@@ -158,7 +164,8 @@ exports.disableUser = catchAsync(async (req, res, next) => {
 
   return res.status(200).json({
     status: "success",
-    message: "La cuenta de usuario ha sido deshabilitada! 🐌",
+    message:
+      "La cuenta de usuario ha sido deshabilitada! 🐌",
     data: {
       user: disableUser,
     },
@@ -166,44 +173,48 @@ exports.disableUser = catchAsync(async (req, res, next) => {
 });
 
 // === GET ORDER BY USER === //
-exports.getOrderByUser = catchAsync(async (req, res, next) => {
-  // ** Obtener todas las ordenes hechas por el usuario ** //
-  const user = await User.findAll();
+exports.getOrderByUser = catchAsync(
+  async (req, res, next) => {
+    // ** Obtener todas las ordenes hechas por el usuario ** //
+    const user = await User.findAll();
 
-  return res.status(200).json({
-    status: "success",
-    message: "Todas las ordenes del usuario 🍔 ",
-    data: {
-      user,
-    },
-  });
-});
+    return res.status(200).json({
+      status: "success",
+      message: "Todas las ordenes del usuario 🍔 ",
+      data: {
+        user,
+      },
+    });
+  }
+);
 
 // === GET ORDER BY ID === //
-exports.getOrderById = catchAsync(async (req, res, next) => {
-  // ** Obtener detalles de una sola orden dado un ID ** //
-  const { id } = req.params;
+exports.getOrderById = catchAsync(
+  async (req, res, next) => {
+    // ** Obtener detalles de una sola orden dado un ID ** //
+    const { id } = req.params;
 
-  const order = await User.findOne({
-    where: {
-      id,
-    },
-  });
+    const order = await User.findOne({
+      where: {
+        id,
+      },
+    });
 
-  if (!order) {
-    return next(
-      new AppError(
-        `La orden con el ID: ${id} no existe 🦊 `,
-        404
-      )
-    );
+    if (!order) {
+      return next(
+        new AppError(
+          `La orden con el ID: ${id} no existe 🦊 `,
+          404
+        )
+      );
+    }
+
+    return res.status(200).json({
+      status: "success",
+      message: `La orden con el 🪅 ID: ${id} esta lista 🍔 `,
+      data: {
+        order: order,
+      },
+    });
   }
-
-  return res.status(200).json({
-    status: "success",
-    message: `La orden con el 🪅 ID: ${id} esta lista 🍔 `,
-    data: {
-      order: order,
-    },
-  });
-});
+);

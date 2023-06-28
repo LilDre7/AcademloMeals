@@ -3,9 +3,9 @@ const { db } = require("../db/config");
 
 const Review = db.define("reviews", {
   id: {
-    type: DataTypes.INTEGER,
     autoIncrement: true,
     allowNull: false,
+    type: DataTypes.INTEGER,
     primaryKey: true,
     unique: true,
   },
@@ -17,16 +17,18 @@ const Review = db.define("reviews", {
     type: DataTypes.TEXT,
     allowNull: false,
   },
-  restarantId: {
+  restaurantId: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
   rating: {
     type: DataTypes.INTEGER,
     allowNull: false,
+    defaultValue: 0,
   },
   status: {
     type: DataTypes.ENUM("active", "inactive"),
+    allowNull: false,
     defaultValue: "active",
   },
 });

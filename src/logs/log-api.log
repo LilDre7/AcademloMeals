@@ -13,3 +13,347 @@
 [2023-06-28T17:26:42.235Z] , info: You are not logged in! Please log in to get access
 [2023-06-28T17:26:51.342Z] , info: You are not logged in! Please log in to get access
 [2023-06-28T17:31:57.920Z] , info: Este email ya existe naruto@mail.com 🌞 Intenta con otro email 🌱 
+[2023-06-28T18:55:54.661Z] , info: Please provide all the required fields
+[2023-06-28T18:56:56.360Z] , info: Todos los camnpos son requeridos para crear un restaurante 🦊 
+[2023-06-28T18:57:40.204Z] , info: Cannot access 'restaurant' before initialization
+[2023-06-28T18:58:12.660Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null,
+notNull Violation: restaurants.status cannot be null
+[2023-06-28T18:58:38.806Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null,
+notNull Violation: restaurants.status cannot be null
+[2023-06-28T18:58:39.950Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null,
+notNull Violation: restaurants.status cannot be null
+[2023-06-28T18:58:44.442Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null,
+notNull Violation: restaurants.status cannot be null
+[2023-06-28T18:58:46.670Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null,
+notNull Violation: restaurants.status cannot be null
+[2023-06-28T18:59:38.875Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null,
+notNull Violation: restaurants.status cannot be null
+[2023-06-28T18:59:43.842Z] , info: notNull Violation: restaurants.status cannot be null
+[2023-06-28T19:01:17.541Z] , info: notNull Violation: restaurants.status cannot be null
+[2023-06-28T19:01:42.502Z] , info: notNull Violation: restaurants.status cannot be null
+[2023-06-28T19:22:13.648Z] , info: WHERE parameter "status" has invalid "undefined" value
+[2023-06-28T19:22:40.750Z] , info: WHERE parameter "status" has invalid "undefined" value
+[2023-06-28T19:22:43.078Z] , info: WHERE parameter "status" has invalid "undefined" value
+[2023-06-28T19:24:23.138Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-28T19:24:39.941Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-28T19:25:36.253Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-28T19:26:07.271Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-28T19:28:33.977Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-28T19:30:44.233Z] , info: No se encontro ningun restaurante 🦊 
+[2023-06-28T19:39:45.599Z] , info: No existe el restaurante con el id:10 🦊 
+[2023-06-28T19:39:51.588Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:39:52.929Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:39:56.497Z] , info: No existe el restaurante con el id:11 🦊 
+[2023-06-28T19:39:57.574Z] , info: No existe el restaurante con el id:12 🦊 
+[2023-06-28T19:43:05.592Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/1 🚑 
+[2023-06-28T19:43:13.763Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/1 🚑 
+[2023-06-28T19:43:56.727Z] , info: Unexpected token  in JSON at position 60
+[2023-06-28T19:44:02.123Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/11 🚑 
+[2023-06-28T19:44:03.646Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/11 🚑 
+[2023-06-28T19:46:29.313Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/11 🚑 
+[2023-06-28T19:46:30.865Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/11 🚑 
+[2023-06-28T19:46:42.434Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/11 🚑 
+[2023-06-28T19:46:45.818Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/12 🚑 
+[2023-06-28T19:46:48.573Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/ 🚑 
+[2023-06-28T19:47:12.025Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/2 🚑 
+[2023-06-28T19:47:24.387Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/2 🚑 
+[2023-06-28T19:47:57.805Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/2 🚑 
+[2023-06-28T19:48:31.937Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:49:05.453Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:49:12.053Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/ 🚑 
+[2023-06-28T19:49:13.112Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:52:11.631Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:52:13.435Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:52:14.670Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:52:45.731Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:52:51.075Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:53:00.038Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:53:04.683Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:53:15.037Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:55:28.066Z] , info: Missing where attribute in the options parameter
+[2023-06-28T19:56:06.193Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:56:08.976Z] , info: No existe el restaurante con el id:3 🦊 
+[2023-06-28T19:56:10.399Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/ 🚑 
+[2023-06-28T19:59:50.775Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T19:59:53.915Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T20:00:39.270Z] , info: No existe el restaurante con el id:2 🦊 
+[2023-06-28T20:00:49.783Z] , info: No existe el restaurante con el id:2  ��� 
+[2023-06-28T20:00:52.090Z] , info: No existe el restaurante con el id:2  ��� 
+[2023-06-28T20:00:53.564Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/ 🚑 
+[2023-06-28T20:02:33.911Z] , info: No existe el restaurante con el id:2  🦊 
+[2023-06-28T20:02:35.567Z] , info: No existe el restaurante con el id:2  🦊 
+[2023-06-28T20:02:38.750Z] , info: No existe el restaurante con el id:4  🦊 
+[2023-06-28T20:10:17.141Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:10:19.846Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:10:20.906Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:10:21.991Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:10:22.959Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:10:24.133Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:10:52.452Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T20:11:16.968Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants//reviews/: 🚑 
+[2023-06-28T20:11:20.264Z] , info: restaurantById.createReview is not a function
+[2023-06-28T20:11:22.933Z] , info: restaurantById.createReview is not a function
+[2023-06-28T20:11:43.584Z] , info: restaurantById.create is not a function
+[2023-06-28T20:11:48.039Z] , info: restaurantById.create is not a function
+[2023-06-28T20:13:10.901Z] , info: restaurantById.create is not a function
+[2023-06-28T20:13:14.297Z] , info: restaurantById.create is not a function
+[2023-06-28T20:13:44.392Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null
+[2023-06-28T20:13:45.720Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null
+[2023-06-28T20:13:51.425Z] , info: notNull Violation: restaurants.name cannot be null,
+notNull Violation: restaurants.address cannot be null
+[2023-06-28T20:14:32.447Z] , info: restaurantById.create is not a function
+[2023-06-28T20:14:34.556Z] , info: restaurantById.create is not a function
+[2023-06-28T20:14:36.467Z] , info: restaurantById.create is not a function
+[2023-06-28T20:15:13.142Z] , info: restaurantById.create is not a function
+[2023-06-28T20:16:00.393Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T20:16:02.712Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T20:16:08.524Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T20:16:15.140Z] , info: restaurantById.createReview is not a function
+[2023-06-28T20:16:17.608Z] , info: restaurantById.createReview is not a function
+[2023-06-28T20:16:44.179Z] , info: restaurantById.create is not a function
+[2023-06-28T20:17:26.569Z] , info: restaurantById.create is not a function
+[2023-06-28T20:17:33.901Z] , info: restaurantById.create is not a function
+[2023-06-28T20:18:26.342Z] , info: restaurantById.createReview is not a function
+[2023-06-28T20:46:14.678Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:46:16.171Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:50:15.087Z] , info: Restaurant is not defined
+[2023-06-28T20:50:31.094Z] , info: Cannot access 'restaurant' before initialization
+[2023-06-28T20:50:47.150Z] , info: Cannot access 'restaurant' before initialization
+[2023-06-28T20:50:48.758Z] , info: Cannot access 'restaurant' before initialization
+[2023-06-28T20:52:09.464Z] , info: Cannot access 'restaurant' before initialization
+[2023-06-28T20:53:12.539Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:55:27.275Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:55:30.644Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:55:53.524Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:55:55.146Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:56:11.507Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:56:13.269Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:56:14.339Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:56:15.416Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:56:18.039Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T20:56:23.070Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T21:01:24.652Z] , info: notNull Violation: reviews.userId cannot be null,
+notNull Violation: reviews.restarantId cannot be null
+[2023-06-28T21:03:31.587Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:03:41.140Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:04:30.822Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:04:32.692Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:04:40.793Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:08:13.457Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:08:15.556Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:09:11.728Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:09:12.841Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:09:58.802Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:00.196Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:01.173Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:02.244Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:12.557Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:13.560Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:15.618Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:10:24.452Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:03.717Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:04.690Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:06.302Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:07.350Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/ 🚑 
+[2023-06-28T21:11:08.688Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:11.215Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/ 🚑 
+[2023-06-28T21:11:14.430Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:30.052Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:33.145Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:41.688Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:43.099Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:44.142Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:11:45.411Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:12:22.305Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:19:10.937Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:19:12.008Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:19:30.034Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:19:47.614Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:23:03.004Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:23:04.206Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:23:26.771Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:23:29.704Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:23:31.243Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:24:54.367Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:24:56.605Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:26:15.570Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:28:05.311Z] , info: You are not logged in! Please log in to get access
+[2023-06-28T21:28:11.310Z] , info: You are not logged in! Please log in to get access
+[2023-06-28T21:29:13.747Z] , info: El usuario buscado no exite 🦊
+[2023-06-28T21:29:46.510Z] , info: La contraseña no es correcta 🦊
+[2023-06-28T21:29:47.979Z] , info: La contraseña no es correcta 🦊
+[2023-06-28T21:30:23.807Z] , info: You are not logged in! Please log in to get access
+[2023-06-28T21:30:28.362Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:30:54.114Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:30:55.813Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:30:57.553Z] , info: No existe el id: 3 al cual haras la reseña 🦊
+[2023-06-28T21:31:01.175Z] , info: No existe el id: 4 al cual haras la reseña 🦊
+[2023-06-28T21:31:02.623Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:31:04.064Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:31:29.427Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:32:04.095Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:32:26.257Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:32:30.164Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:33:45.539Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:33:47.212Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:33:49.963Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:33:51.093Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:33:52.260Z] , info: No existe el id: 3 al cual haras la reseña 🦊
+[2023-06-28T21:33:53.591Z] , info: No existe el id: 4 al cual haras la reseña 🦊
+[2023-06-28T21:33:54.628Z] , info: No existe el id: 4 al cual haras la reseña 🦊
+[2023-06-28T21:33:55.453Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:34:38.445Z] , info: el valor nulo en la columna «restarantId» de la relación «reviews» viola la restricción de no nulo
+[2023-06-28T21:36:43.790Z] , info: The owner of this token it not longer available
+[2023-06-28T21:36:46.644Z] , info: The owner of this token it not longer available
+[2023-06-28T21:37:04.059Z] , info: The owner of this token it not longer available
+[2023-06-28T21:37:06.211Z] , info: The owner of this token it not longer available
+[2023-06-28T21:37:07.948Z] , info: The owner of this token it not longer available
+[2023-06-28T21:46:33.376Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/:restaurantId/:1 🚑 
+[2023-06-28T21:46:36.210Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/:restaurantId/:1 🚑 
+[2023-06-28T21:46:37.981Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/:restaurantId/1 🚑 
+[2023-06-28T21:46:43.918Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/:restaurantId/1 🚑 
+[2023-06-28T21:46:50.121Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/:1/1 🚑 
+[2023-06-28T21:46:51.775Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:46:53.365Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:46:56.605Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:46:57.478Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:46:59.171Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:47:10.785Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:47:11.964Z] , info: La ruta es incorrecta o no valida /api/v1/reviews/1/1 🚑 
+[2023-06-28T21:47:52.097Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:47:56.250Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:48:44.895Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:48:55.663Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:49:16.007Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:49:17.943Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:49:19.400Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:49:38.030Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:49:40.316Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:50:21.438Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:50:22.843Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:50:35.005Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:50:36.098Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:50:38.021Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:03.096Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:04.216Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:15.182Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:17.287Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:18.984Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:24.505Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:27.206Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:29.388Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1/ 🚑 
+[2023-06-28T21:51:30.385Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:51:31.331Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:53:15.674Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:53:16.921Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:53:18.335Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T21:55:20.678Z] , info: You are not logged in! Please log in to get access
+[2023-06-28T21:55:22.975Z] , info: You are not logged in! Please log in to get access
+[2023-06-28T22:06:10.995Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T22:06:16.792Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:06:18.550Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:06:24.145Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:06:25.727Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:06:40.401Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T22:06:41.779Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1 🚑 
+[2023-06-28T22:06:48.384Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:06:50.555Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:13.934Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:15.582Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:19.553Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:25.682Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:26.814Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:27.904Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:07:40.380Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:09:19.754Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:09:20.960Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:09:22.626Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:09:57.496Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:11:07.184Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:11:24.107Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-28T22:11:59.698Z] , info: la sintaxis de entrada no es válida para el enum enum_reviews_status: «deleted»
+[2023-06-28T22:12:39.910Z] , info: la sintaxis de entrada no es válida para el enum enum_reviews_status: «deleted»
+[2023-06-28T22:12:41.302Z] , info: la sintaxis de entrada no es válida para el enum enum_reviews_status: «deleted»
+[2023-06-28T22:13:42.985Z] , info: No existe el review con el id: 20 🦊 
+[2023-06-28T22:13:44.698Z] , info: No existe el review con el id: 20 🦊 
+[2023-06-28T22:16:01.686Z] , info: No existe el review con el id: 20 🦊 
+[2023-06-28T22:16:10.736Z] , info: No existe el review con el id: 20 🦊 
+[2023-06-28T22:19:14.454Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:19:16.304Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:19:18.373Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:19:19.551Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:19:34.792Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/1/ 🚑 
+[2023-06-28T22:19:49.082Z] , info: No existe el review con el id: 4 🦊 
+[2023-06-28T22:19:51.548Z] , info: No existe el review con el id: 4 🦊 
+[2023-06-28T22:19:52.868Z] , info: No existe el review con el id: 2 🦊 
+[2023-06-28T22:19:54.975Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:19:58.813Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:20:02.188Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:20:03.755Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:20:19.352Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:20:20.921Z] , info: No existe el review con el id: 3 🦊 
+[2023-06-28T22:20:46.278Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:48.216Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:49.142Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:49.975Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:51.230Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:52.105Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:53.816Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:56.463Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:20:57.646Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:36.565Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews//1 🚑 
+[2023-06-28T22:21:43.974Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:45.665Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:46.657Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:48.749Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:49.814Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:50.945Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:52.829Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:54.189Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:21:55.808Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:22:05.927Z] , info: No existe el review con el id: 6 🦊 
+[2023-06-28T22:22:07.514Z] , info: No existe el review con el id: 6 🦊 
+[2023-06-28T22:22:40.857Z] , info: No existe el restaurante con este id: 6 🦊 
+[2023-06-28T22:22:42.299Z] , info: No existe el restaurante con este id: 6 🦊 
+[2023-06-28T22:22:56.000Z] , info: No existe el restaurante con este id: 6 🦊 
+[2023-06-28T22:22:56.959Z] , info: No existe el restaurante con este id: 6 🦊 
+[2023-06-28T22:23:47.246Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:23:50.516Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:23:51.493Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:23:52.960Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:23:55.302Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:23:56.927Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:24:00.473Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:24:04.122Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:24:04.950Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:24:07.644Z] , info: No existe el restaurante con este id: 5 🦊 
+[2023-06-28T22:24:10.291Z] , info: No existe el restaurante con este id: 1 🦊 
+[2023-06-28T22:24:23.751Z] , info: No existe el restaurante con este id: 1 🦊 
+[2023-06-28T22:25:07.950Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:25:13.967Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:25:15.825Z] , info: No existe el review con el id: 1 🦊 
+[2023-06-28T22:26:42.743Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
+[2023-06-28T22:26:44.929Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
+[2023-06-28T22:26:46.275Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
+[2023-06-28T22:26:54.435Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
