@@ -4,3 +4,24 @@
 Parte ==> 1
 * El endpoint /orders y /orders/:id, debe buscar las órdenes del usuario en sesión (del token que se envió), extraer el id del token y usarlo para buscar dichas órdenes.
 
+Parte => 1 y 2 proteger rutas
+
+
+IMPORTANTE: Revisar si esto funciona: 
+// exports.protectAccountOwner = catchAsync(
+//   async (req, res, next) => {
+//     const { user, sessionUser } = req;
+
+//     if (sessionUser.role === "admin") {
+//       next();
+//     } else {
+//       if (user.id !== sessionUser.id) {
+//         return next(
+//           new AppError("You do not own this account.", 401)
+//         );
+//       }
+
+//       next();
+//     }
+//   }
+// );

@@ -375,3 +375,279 @@ notNull Violation: reviews.restarantId cannot be null
 [2023-06-29T18:07:50.433Z] , info: Cannot read properties of undefined (reading 'role')
 [2023-06-29T18:07:51.365Z] , info: Cannot read properties of undefined (reading 'role')
 [2023-06-29T18:07:52.232Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:38:09.882Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:38:32.442Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:38:33.372Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:38:57.216Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T18:38:59.138Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T18:39:04.559Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:39:05.666Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:39:06.880Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:39:08.847Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:39:11.395Z] , info: La ruta es incorrecta o no valida /api/v1/meals/1 🚑 
+[2023-06-29T18:39:30.633Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T18:39:32.084Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T18:39:46.580Z] , info: la sintaxis de entrada no es válida para tipo integer: «id»
+[2023-06-29T18:39:47.794Z] , info: notNull Violation: meals.name cannot be null,
+notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:39:49.265Z] , info: notNull Violation: meals.name cannot be null,
+notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:39:52.230Z] , info: notNull Violation: meals.name cannot be null,
+notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:39:53.243Z] , info: notNull Violation: meals.name cannot be null,
+notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:39:58.354Z] , info: notNull Violation: meals.name cannot be null,
+notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:40:29.224Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:40:34.611Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:40:48.958Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:19.786Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:21.955Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T18:41:23.644Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:25.379Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:26.674Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:27.791Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:28.984Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:29.979Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:41:31.165Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:42:05.822Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:42:08.824Z] , info: notNull Violation: meals.restaurantid cannot be null
+[2023-06-29T18:42:10.612Z] , info: notNull Violation: meals.restaurantid cannot be null
+[2023-06-29T18:42:11.523Z] , info: notNull Violation: meals.restaurantid cannot be null
+[2023-06-29T18:42:12.420Z] , info: notNull Violation: meals.restaurantid cannot be null
+[2023-06-29T18:42:45.157Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:42:47.012Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:42:47.909Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:42:48.742Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:43:31.621Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-29T18:43:33.930Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-29T18:44:13.929Z] , info: Cannot destructure property 'id' of 'req.pamars' as it is undefined.
+[2023-06-29T18:44:15.484Z] , info: Cannot destructure property 'id' of 'req.pamars' as it is undefined.
+[2023-06-29T18:44:16.691Z] , info: Cannot destructure property 'id' of 'req.pamars' as it is undefined.
+[2023-06-29T18:44:18.217Z] , info: Cannot destructure property 'id' of 'req.pamars' as it is undefined.
+[2023-06-29T18:44:28.784Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:44:33.885Z] , info: notNull Violation: meals.restaurantId cannot be null
+[2023-06-29T18:50:25.053Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T18:50:31.470Z] , info: El id: 100 no se encontro o no existe 🦊 
+[2023-06-29T18:50:32.889Z] , info: El id: 100 no se encontro o no existe 🦊 
+[2023-06-29T18:50:34.398Z] , info: El id: 10 no se encontro o no existe 🦊 
+[2023-06-29T18:50:35.358Z] , info: El id: 10 no se encontro o no existe 🦊 
+[2023-06-29T18:50:36.782Z] , info: El id: 18 no se encontro o no existe 🦊 
+[2023-06-29T19:07:08.884Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:11.455Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:12.754Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:14.148Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:17.682Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:20.321Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:21.403Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:24.849Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:27.809Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:28.980Z] , info: La ruta es incorrecta o no valida /api/v1/meal 🚑 
+[2023-06-29T19:08:30.440Z] , info: La ruta es incorrecta o no valida /api/v1/meal 🚑 
+[2023-06-29T19:08:33.144Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:08:55.054Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-06-29T19:17:01.456Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:17:03.234Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:17:07.120Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:17:08.076Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:17:09.201Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:17:24.257Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:20:08.103Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:20:14.229Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:20:15.179Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:20:16.130Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:20:17.137Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:20:31.863Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:20:32.734Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:22:40.322Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:22:45.044Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:22:56.756Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:23:07.946Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:26:04.904Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:26:06.088Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:26:07.050Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-29T19:26:21.917Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-29T19:28:48.776Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T19:39:57.383Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:40:03.803Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:40:04.806Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:40:13.671Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:40:53.809Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:41:05.306Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:41:12.380Z] , info: WHERE parameter "name" has invalid "undefined" value
+[2023-06-29T19:41:16.179Z] , info: WHERE parameter "name" has invalid "undefined" value
+[2023-06-29T19:41:53.006Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:45:30.157Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:45:31.626Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:45:32.625Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:45:57.690Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:46:00.334Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:46:04.901Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:46:10.857Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:46:34.160Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:46:37.799Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:47:01.907Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:47:25.119Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:47:26.619Z] , info: No se encontro la comida con el id: 10 🦊 
+[2023-06-29T19:47:28.007Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:47:29.172Z] , info: No se encontro la comida con el id: 2 🦊 
+[2023-06-29T19:47:30.151Z] , info: No se encontro la comida con el id: 3 🦊 
+[2023-06-29T19:47:31.160Z] , info: No se encontro la comida con el id: 4 🦊 
+[2023-06-29T19:47:32.301Z] , info: No se encontro la comida con el id: 4 🦊 
+[2023-06-29T19:47:33.129Z] , info: No se encontro la comida con el id: 4 🦊 
+[2023-06-29T19:47:45.097Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:47:45.953Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:47:47.473Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:47:48.581Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:47:49.613Z] , info: Missing where attribute in the options parameter
+[2023-06-29T19:48:17.575Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:48:19.151Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:48:43.476Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:48:49.735Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:48:54.171Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:48:55.874Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:49:17.235Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:49:33.135Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:49:33.906Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:49:35.110Z] , info: No se encontro la comida con el id: 1 🦊 
+[2023-06-29T19:51:11.594Z] , info: No se encontro la comida con el id: 120 🦊 
+[2023-06-29T19:51:46.411Z] , info: No se encontro la comida con el id: 22 🦊 
+[2023-06-29T19:59:30.057Z] , info: El id: 21 que estas buscando no existe 🦊
+[2023-06-29T19:59:41.456Z] , info: El id: 21 que estas buscando no existe 🦊
+[2023-06-29T19:59:44.960Z] , info: El id: 0 que estas buscando no existe 🦊
+[2023-06-29T19:59:46.168Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T19:59:47.379Z] , info: El id: 2 que estas buscando no existe 🦊
+[2023-06-29T19:59:48.371Z] , info: El id: 3 que estas buscando no existe 🦊
+[2023-06-29T19:59:51.529Z] , info: El id: 4 que estas buscando no existe 🦊
+[2023-06-29T19:59:53.195Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T19:59:54.063Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T19:59:55.067Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:00:03.868Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:00:43.183Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:08.432Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:09.868Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:10.783Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:12.227Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:43.788Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:45.972Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:01:47.274Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:02:06.448Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T20:02:09.999Z] , info: El id: 10 que estas buscando no existe 🦊
+[2023-06-29T20:02:11.298Z] , info: El id: 11 que estas buscando no existe 🦊
+[2023-06-29T20:02:12.352Z] , info: El id: 12 que estas buscando no existe 🦊
+[2023-06-29T20:02:13.617Z] , info: El id: 12 que estas buscando no existe 🦊
+[2023-06-29T20:02:43.700Z] , info: el operador no existe: character varying = boolean
+[2023-06-29T20:02:45.194Z] , info: el operador no existe: character varying = boolean
+[2023-06-29T20:03:13.342Z] , info: El id: 12 que estas buscando no existe 🦊
+[2023-06-29T20:03:34.788Z] , info: El id: 13 que estas buscando no existe 🦊
+[2023-06-29T20:03:35.991Z] , info: El id: 13 que estas buscando no existe 🦊
+[2023-06-29T20:09:15.628Z] , info: meal.delete is not a function
+[2023-06-29T20:09:26.345Z] , info: meal.delete is not a function
+[2023-06-29T20:09:49.793Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T20:09:55.887Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T20:23:38.424Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:23:41.265Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:23:42.294Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:23:44.795Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T20:23:46.167Z] , info: La ruta es incorrecta o no valida /api/v1/meals 🚑 
+[2023-06-29T20:23:47.679Z] , info: La ruta es incorrecta o no valida /api/v1/meals 🚑 
+[2023-06-29T20:23:49.745Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:23:51.449Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:23:52.749Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:23:57.639Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:01.437Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:02.968Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:03.920Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:04.914Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:05.749Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:06.980Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:11.001Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:12.002Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:15.127Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:23.576Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:24.630Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:26.271Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:27.639Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:29.376Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:30.470Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:31.617Z] , info: La ruta es incorrecta o no valida /api/v1/meals1 🚑 
+[2023-06-29T20:24:34.041Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:47.812Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:48.940Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:50.041Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:51.605Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:24:55.326Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:25:15.179Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:25:16.076Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:25:17.062Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:25:25.415Z] , info: Este email ya existe saske@Smail.com 🌞 Intenta con otro email 🌱 
+[2023-06-29T20:25:40.643Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:25:41.935Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T20:26:14.441Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T20:27:18.356Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:19.722Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:20.659Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:21.621Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:22.582Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:24.107Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:40.066Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:41.016Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:44.498Z] , info: El id: 13 no se encontro o no existe 🦊 
+[2023-06-29T20:27:49.610Z] , info: La ruta es incorrecta o no valida /api/v1/meals/ 🚑 
+[2023-06-29T20:36:51.485Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:36:53.244Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:36:54.044Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:36:58.377Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:24.846Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:27.905Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:28.970Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:30.270Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:31.337Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:32.464Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:38.009Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:39.703Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:37:44.331Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:43:17.447Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:45:07.175Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:08.921Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:10.109Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:19.299Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:20.222Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:21.493Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:23.804Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:24.769Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:26.344Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:31.025Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:32.320Z] , info: You do not have permission to perform this action
+[2023-06-29T20:45:32.958Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:36.948Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:38.418Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:39.416Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:45.674Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:47.129Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:48.893Z] , info: You do not have permission to perform this action
+[2023-06-29T20:46:51.548Z] , info: You do not have permission to perform this action
+[2023-06-29T20:47:16.078Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:47:20.186Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:48:55.370Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:49:04.929Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:49:14.285Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:49:32.991Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:51:09.731Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T20:51:11.322Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:12:58.730Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:13:09.590Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:13:11.515Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:13:13.201Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:13:14.831Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:13:16.140Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T21:13:38.420Z] , info: You are not logged in! Please log in to get access
+[2023-06-29T21:20:04.861Z] , info: You do not have permission to perform this action
+[2023-06-29T21:20:07.260Z] , info: You do not have permission to perform this action
+[2023-06-29T21:20:10.122Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T21:20:11.790Z] , info: El id: 1 que estas buscando no existe 🦊
+[2023-06-29T21:20:13.863Z] , info: El id: 2 que estas buscando no existe 🦊
+[2023-06-29T21:20:15.126Z] , info: El id: 3 que estas buscando no existe 🦊
+[2023-06-29T21:20:39.893Z] , info: El id: 3820 que estas buscando no existe 🦊
+[2023-06-29T21:20:51.730Z] , info: You do not have permission to perform this action
+[2023-06-29T21:20:54.596Z] , info: You do not have permission to perform this action

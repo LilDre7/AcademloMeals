@@ -20,7 +20,8 @@ const validate = require("../middlewares/restaurantValidate.middleware");
 
 // == CREATE ✅
 router.route("/").post(
-  // auth.restrictTo("admin"), //  🐹
+  auth.protect,
+  auth.restrictTo("admin"), //  🐹
   validate.validateRestaurant,
   controlRest.createRestaurant
 );
@@ -33,13 +34,15 @@ router.route("/:id").get(controlRest.getRestaurantById);
 
 // == UPDATE FOR ID ✅
 router.route("/:id").patch(
-  // auth.restrictTo("admin"), //  🐹
+  auth.protect,
+  auth.restrictTo("admin"), //  🐹
   controlRest.updateRestaurantById
 );
 
 // == DELETE FOR ID ✅
 router.route("/:id").delete(
-  // auth.restrictTo("admin"), //  🐹
+  auth.protect,
+  auth.restrictTo("admin"), //  🐹
   controlRest.deleteRestaurantById
 );
 

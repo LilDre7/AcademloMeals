@@ -51,20 +51,21 @@ exports.protectAccountOwner = catchAsync(
   async (req, res, next) => {
     const { user, sessionUser } = req;
 
-    if (user.id !== sessionUser.id) {
-      return next(
-        new AppError("You do not own this account.", 401)
-      );
-    }
+    if (sessionUser.role === "admin") {
+      next();
+    } else {
+      if (user.id !== sessionUser.id) {
+        return next(
+          new AppError("You do not own this account.", 401)
+        );
+      }
 
-    next();
+      next();
+    }
   }
 );
 
 // TODO: Revisar esta validacion que no esta funcionando 🦊
-
-// Validar Los endpoints POST / PATCH /:id y DELETE /:id deben estar protegidos para que únicamente el usuario admin pueda realizar estas acciones.
-
 exports.restrictTo = (...roles) => {
   return (req, res, next) => {
     if (!roles.includes(req.sessionUser.role)) {

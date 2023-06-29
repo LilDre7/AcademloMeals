@@ -3,8 +3,8 @@ const { db } = require("../db/config");
 
 const Meal = db.define("meals", {
   id: {
-    autoIncrement: true,
     type: DataTypes.INTEGER,
+    autoIncrement: true,
     primaryKey: true,
     unique: true,
   },
@@ -22,9 +22,9 @@ const Meal = db.define("meals", {
     allowNull: false,
   },
   status: {
-    type: DataTypes.BOOLEAN,
-    defaultValue: true,
+    type: DataTypes.ENUM("active", "inactive"),
     allowNull: false,
+    defaultValue: "active",
   },
 });
 
