@@ -357,3 +357,21 @@ notNull Violation: reviews.restarantId cannot be null
 [2023-06-28T22:26:44.929Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
 [2023-06-28T22:26:46.275Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
 [2023-06-28T22:26:54.435Z] , info: No existe el review con el id 1 o el restaurant: 2 no existe en nuestra base de datos 🦊 
+[2023-06-29T18:06:45.906Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:47.437Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:48.372Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:49.460Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:54.122Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:55.755Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:56.994Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:57.912Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:06:58.933Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:02.452Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:03.574Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:41.254Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:42.900Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:43.814Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:49.478Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:50.433Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:51.365Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-29T18:07:52.232Z] , info: Cannot read properties of undefined (reading 'role')

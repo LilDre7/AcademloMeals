@@ -28,7 +28,7 @@ const globalErrorHandler = require("./controllers/error.controller");
 // ** Routes ** //
 const userRoutes = require("./routes/users.routes");
 const restaurantsRoute = require("./routes/restaurants.routes");
-// const mealsRoute = require("./routes/meals.routes");
+const mealsRoute = require("./routes/meals.routes");
 // const ordersRoute = require("./routes/orders.routes");
 
 // Router for users
@@ -38,7 +38,7 @@ app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/restaurants", restaurantsRoute);
 
 // Router for meals
-// app.use("/api/v1/meals", mealsRoute);
+app.use("/api/v1/meals", mealsRoute);
 
 // Router for orders
 // app.use("/api/v1/orders", ordersRoute);
