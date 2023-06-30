@@ -1,4 +1,7 @@
 const { validationResult, body } = require("express-validator");
+const catchAsync = require("../utils/catchAsync");
+const User = require("../models/users.model");
+const AppError = require("../utils/appError");
 
 const validateFields = (req, res, next) => {
   const errors = validationResult(req);
@@ -37,3 +40,37 @@ exports.validateUser = [
   body("role").not().isEmpty().isLength({ min: 5 }),
   validateFields,
 ];
+
+exports.validateNewPassword = [
+  body("currentPassword")
+    .not()
+    .isEmpty()
+    .matches(/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/)
+    .withMessage(
+      "La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
+    ),
+  body("newPassword")
+    .not()
+    .isEmpty()
+    .matches(/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/)
+    .withMessage(
+      "La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
+    ),
+  validateFields,
+];
+
+// Function que me valida que el id del usuario exista de lo contrario enviar un error
+exports.validateUserId = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+
+  const user = await User.findOne({ where: { id } });
+
+  // Este if para para verificar el user fue encontrado con el where
+  if (!user) {
+    return next(new AppError("El usuario no existe 🚨", 404));
+  }
+
+  req.user = user;
+
+  next();
+});

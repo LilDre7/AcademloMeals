@@ -1,7 +1,4 @@
-const {
-  validationResult,
-  body,
-} = require("express-validator");
+const { validationResult, body } = require("express-validator");
 
 const validateFields = (req, res, next) => {
   const errors = validationResult(req);
@@ -30,9 +27,9 @@ exports.validateRestaurant = [
   body("rating")
     .not()
     .isEmpty()
+    .isFloat({ min: 1, max: 5 })
     .withMessage(
       "El rating debe ser obligatorio y debe ser un numero entre 1 y 5"
-    )
-    .isFloat({ min: 1, max: 5 }),
+    ),
   validateFields,
 ];

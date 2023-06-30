@@ -17,9 +17,7 @@ db.authenticate()
 initModel();
 
 db.sync({ force: false })
-  .then(() =>
-    console.log(" 🐮 Database synced 🌞 ".bgBlue.bold)
-  )
+  .then(() => console.log(" 🐮 Database synced 🌞 ".bgBlue.bold))
   .catch((err) => console.log(err));
 
 // Aqui escuchamos nuestro puerto //

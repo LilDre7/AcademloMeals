@@ -65,7 +65,6 @@ exports.protectAccountOwner = catchAsync(
   }
 );
 
-// TODO: Revisar esta validacion que no esta funcionando 🦊
 exports.restrictTo = (...roles) => {
   return (req, res, next) => {
     if (!roles.includes(req.sessionUser.role)) {

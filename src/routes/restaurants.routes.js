@@ -11,6 +11,9 @@ const auth = require("../middlewares/auth.middleware");
 // Importaciones del middleware de las validaciones para el post
 const validate = require("../middlewares/restaurantValidate.middleware");
 
+// Importacion del middleware que me valida que el usuario no exista
+const userValidateId = require("../middlewares/userValidate.middleware");
+
 // Direccion en PostMan
 // http://localhost:8080/api/v1/users
 
@@ -54,7 +57,11 @@ router
 // == UPDATE FOR REVIEWS OF RESTAURANTID OF ID ✅
 router
   .route("/reviews/:restaurantId/:id")
-  .patch(auth.protect, controlRest.updateReview);
+  .patch(
+    auth.protect,
+    // userValidateId.validateUserId,
+    controlRest.updateReview
+  );
 
 // == DELETE FOR REVIEWS OF RESTAURANTID OF ID ✅
 router

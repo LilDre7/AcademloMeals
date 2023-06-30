@@ -945,3 +945,143 @@ notNull Violation: orders.userId cannot be null
 [2023-06-30T05:01:48.912Z] , info: restaurants is not associated to orders!
 [2023-06-30T05:02:10.483Z] , info: restaurants is not associated to orders!
 [2023-06-30T05:02:13.632Z] , info: restaurants is not associated to orders!
+[2023-06-30T20:02:32.298Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T20:02:36.495Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T20:02:42.839Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:02:44.884Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:02:46.121Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:02:56.461Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:29.576Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/:id 🚑 
+[2023-06-30T20:03:33.366Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:34.871Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:37.919Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:38.859Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:39.916Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:55.924Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:03:57.251Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/1 🚑 
+[2023-06-30T20:04:01.714Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/2 🚑 
+[2023-06-30T20:04:02.978Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/3 🚑 
+[2023-06-30T20:04:03.962Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/4 🚑 
+[2023-06-30T20:04:05.637Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/ 🚑 
+[2023-06-30T20:04:25.638Z] , info: La ruta es incorrecta o no valida /api/v1/users/x/1 🚑 
+[2023-06-30T20:05:35.394Z] , info: La ruta es incorrecta o no valida /api/v1/users/x/1 🚑 
+[2023-06-30T20:05:36.604Z] , info: La ruta es incorrecta o no valida /api/v1/users/x/1 🚑 
+[2023-06-30T20:05:48.708Z] , info: La ruta es incorrecta o no valida /api/v1/users/x/1 🚑 
+[2023-06-30T20:05:49.846Z] , info: La ruta es incorrecta o no valida /api/v1/users/x/1 🚑 
+[2023-06-30T20:06:01.434Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:06:03.781Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:06:04.902Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:06:05.934Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:07:20.988Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:07:22.049Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:07:32.565Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:07:33.961Z] , info: Cannot read properties of undefined (reading 'password')
+[2023-06-30T20:07:35.670Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-30T20:16:20.219Z] , info: La contraseña actual no es correcta 🦊
+[2023-06-30T20:20:26.487Z] , info: Este email ya existe lildre@mail.com 🌞 Intenta con otro email 🌱 
+[2023-06-30T20:22:22.448Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-30T20:22:25.478Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-30T20:23:10.081Z] , info: El usuario que quieres actualizar no existe 🦊
+[2023-06-30T20:23:12.653Z] , info: El usuario que quieres actualizar no existe 🦊
+[2023-06-30T20:23:14.203Z] , info: El usuario que quieres actualizar no existe 🦊
+[2023-06-30T20:24:02.489Z] , info: El usuario que quieres actualizar no existe 🦊
+[2023-06-30T20:29:03.442Z] , info: users is not associated to users!
+[2023-06-30T20:29:06.779Z] , info: users is not associated to users!
+[2023-06-30T20:30:02.470Z] , info: no existe la columna «userId»
+[2023-06-30T20:30:04.599Z] , info: no existe la columna «userId»
+[2023-06-30T20:30:16.651Z] , info: users is not associated to users!
+[2023-06-30T20:30:20.994Z] , info: users is not associated to users!
+[2023-06-30T20:32:36.639Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T20:44:17.809Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-30T20:46:10.773Z] , info: Invalid value users {
+  dataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  _previousDataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [Array]
+  },
+  isNewRecord: false
+}
+[2023-06-30T20:46:17.582Z] , info: Invalid value users {
+  dataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  _previousDataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [Array]
+  },
+  isNewRecord: false
+}
+[2023-06-30T20:46:19.050Z] , info: Invalid value users {
+  dataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  _previousDataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [Array]
+  },
+  isNewRecord: false
+}
+[2023-06-30T20:46:19.942Z] , info: Invalid value users {
+  dataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  _previousDataValues: { name: 'lildree', id: 1, email: 'lildre@mail.com', status: true },
+  uniqno: 1,
+  _changed: Set(0) {},
+  _options: {
+    isNewRecord: false,
+    _schema: null,
+    _schemaDelimiter: '',
+    raw: true,
+    attributes: [Array]
+  },
+  isNewRecord: false
+}
+[2023-06-30T20:48:15.123Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T20:48:53.555Z] , info: La orden con el ID: 20 no existe 🦊 
+[2023-06-30T20:48:54.961Z] , info: La orden con el ID: 20 no existe 🦊 
+[2023-06-30T20:50:50.342Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T20:52:16.157Z] , info: No existe el restaurante con el id:6 🦊 
+[2023-06-30T20:52:17.707Z] , info: No existe el restaurante con el id:6 🦊 
+[2023-06-30T20:52:21.462Z] , info: No existe el restaurante con el id:7 🦊 
+[2023-06-30T20:53:00.792Z] , info: No existe el restaurante con el id:6 🦊 
+[2023-06-30T20:53:03.342Z] , info: No existe el restaurante con el id:7 🦊 
+[2023-06-30T20:53:04.717Z] , info: No existe el restaurante con el id:7 🦊 
+[2023-06-30T20:53:21.649Z] , info: No existe el restaurante con el id:6  🦊 
+[2023-06-30T20:54:18.031Z] , info: No existe el id: 6 al cual haras la reseña 🦊
+[2023-06-30T20:54:19.405Z] , info: No existe el id: 6 al cual haras la reseña 🦊
+[2023-06-30T21:14:23.284Z] , info: El usuario no existe 🚨
+[2023-06-30T21:14:30.535Z] , info: El usuario no existe 🚨
+[2023-06-30T21:14:31.881Z] , info: El usuario no existe 🚨
+[2023-06-30T21:14:33.017Z] , info: El usuario no existe 🚨
+[2023-06-30T21:14:35.986Z] , info: El usuario no existe 🚨
+[2023-06-30T21:35:21.720Z] , info: El usuario no existe 🚨
+[2023-06-30T21:35:23.445Z] , info: El usuario no existe 🚨
+[2023-06-30T21:51:54.690Z] , info: La ruta es incorrecta o no valida /api/v1/restaurants/reviews/2/ 🚑 
+[2023-06-30T21:51:56.835Z] , info: El usuario no existe 🚨
+[2023-06-30T21:51:58.856Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:12.975Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:14.230Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:18.997Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:20.855Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:21.770Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:22.738Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:23.985Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:25.570Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:34.216Z] , info: El usuario no existe 🚨
+[2023-06-30T21:52:35.386Z] , info: El usuario no existe 🚨
+[2023-06-30T21:53:15.008Z] , info: El usuario no existe 🚨
+[2023-06-30T21:53:19.498Z] , info: El usuario no existe 🚨
+[2023-06-30T21:53:22.998Z] , info: El usuario no existe 🚨

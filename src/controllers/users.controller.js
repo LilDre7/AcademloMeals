@@ -58,10 +58,7 @@ exports.login = catchAsync(async (req, res, next) => {
   });
 
   if (!user)
-    next(
-      new AppError("El usuario buscado no exite 🦊"),
-      400
-    );
+    next(new AppError("El usuario buscado no exite 🦊"), 400);
 
   // Validar si la contraseña es correcta
   // De esta forma evaluamos que la contraseña sea correcta, esto se hace con validaciones de bcrypt
@@ -120,7 +117,11 @@ exports.updateUser = catchAsync(async (req, res, next) => {
       status: "success",
       message: `Tu perfil se actualizó correctamente. Tu nuevo email: ${user.email} 🐮`,
       data: {
-        user: user,
+        User: user.id,
+        Name: user.name,
+        Email: user.email,
+        Status: user.status,
+        Role: user.role,
       },
     });
   } catch (error) {
@@ -132,10 +133,7 @@ exports.updateUser = catchAsync(async (req, res, next) => {
       );
     else
       next(
-        new AppError(
-          "Error al actualizar el usuario 🦊",
-          500
-        )
+        new AppError("Error al actualizar el usuario 🦊", 500)
       );
   }
 });
@@ -164,8 +162,7 @@ exports.disableUser = catchAsync(async (req, res, next) => {
 
   return res.status(200).json({
     status: "success",
-    message:
-      "La cuenta de usuario ha sido deshabilitada! 🐌",
+    message: "La cuenta de usuario ha sido deshabilitada! 🐌",
     data: {
       user: disableUser,
     },
@@ -173,48 +170,80 @@ exports.disableUser = catchAsync(async (req, res, next) => {
 });
 
 // === GET ORDER BY USER === //
-exports.getOrderByUser = catchAsync(
-  async (req, res, next) => {
-    // ** Obtener todas las ordenes hechas por el usuario ** //
-    const user = await User.findAll();
+exports.getOrderByUser = catchAsync(async (req, res, next) => {
+  // ** Obtener todas las ordenes hechas por el usuario ** //
 
-    return res.status(200).json({
-      status: "success",
-      message: "Todas las ordenes del usuario 🍔 ",
-      data: {
-        user,
-      },
-    });
-  }
-);
+  // Hacer una funtion que me permita aceder a la user que para solo obtener (name , id , emails y stutus)
+  const user = await User.findAll({
+    attributes: ["name", "id", "email", "status"],
+  });
+
+  return res.status(200).json({
+    status: "success",
+    message: "Todas las ordenes del usuario 🍔 ",
+    data: {
+      count: user.length,
+      user: user,
+    },
+  });
+});
 
 // === GET ORDER BY ID === //
-exports.getOrderById = catchAsync(
-  async (req, res, next) => {
-    // ** Obtener detalles de una sola orden dado un ID ** //
-    const { id } = req.params;
+exports.getOrderById = catchAsync(async (req, res, next) => {
+  // ** Obtener detalles de una sola orden dado un ID ** //
+  const { id } = req.params;
 
-    const order = await User.findOne({
-      where: {
-        id,
-      },
-    });
+  const order = await User.findOne({
+    where: {
+      id,
+    },
+    attributes: ["name", "id", "email", "status"],
+  });
 
-    if (!order) {
-      return next(
-        new AppError(
-          `La orden con el ID: ${id} no existe 🦊 `,
-          404
-        )
-      );
-    }
-
-    return res.status(200).json({
-      status: "success",
-      message: `La orden con el 🪅 ID: ${id} esta lista 🍔 `,
-      data: {
-        order: order,
-      },
-    });
+  if (!order) {
+    return next(
+      new AppError(
+        `La orden con el ID: ${id} no existe 🦊 `,
+        404
+      )
+    );
   }
-);
+
+  return res.status(200).json({
+    status: "success",
+    message: `La orden con el 🪅 ID: ${id} esta lista 🍔 `,
+    data: {
+      order: order,
+    },
+  });
+});
+
+// === UPDATE PASSWORD FOR ID
+exports.updatePassword = catchAsync(async (req, res, next) => {
+  // ** Actualizar la contraseña del usuario ** //
+  const { user } = req;
+
+  const { currentPassword, newPassword } = req.body;
+
+  if (!(await bcrypt.compare(currentPassword, user.password))) {
+    return next(
+      new AppError(`La contraseña actual no es correcta 🦊`, 401)
+    );
+  }
+
+  const salt = await bcrypt.genSalt(10);
+  const encrytedPassword = await bcrypt.hash(newPassword, salt);
+
+  await user.update({
+    password: encrytedPassword,
+    passwordChangedAt: new Date(),
+  });
+
+  return res.status(200).json({
+    status: "success",
+    message: `La contraseña del usuario ${user.name} ha sido actualizada correctamente 🥷🏾⚔️`,
+    data: {
+      user,
+    },
+  });
+});

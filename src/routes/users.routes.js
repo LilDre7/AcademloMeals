@@ -11,6 +11,8 @@ const auth = require("../middlewares/auth.middleware");
 // Imprtacion para validar el user CREATE 🥷🏾
 const validateUser = require("../middlewares/userValidate.middleware");
 
+// Importando la existencia de un usuario de un middleware
+
 // Direccion en PostMan
 // http://localhost:8080/api/v1/users
 
@@ -36,15 +38,22 @@ router
 // == DISABLE ✅
 router
   .route("/:id")
-  .delete(
-    auth.protectAccountOwner,
-    userControl.disableUser
-  );
+  .delete(auth.protectAccountOwner, userControl.disableUser);
 
 // == GET USER BY ID == ALL ORDERS ✅
 router.route("/:orders").get(userControl.getOrderByUser);
 
 // == GET ORDER BY ID == ORDER FOR ID ✅
 router.route("/orders/:id").get(userControl.getOrderById);
+
+// == UPDATE PASSWORD FOR ID
+router
+  .route("/password/:id")
+  .patch(
+    auth.protect,
+    validateUser.validateUserId,
+    validateUser.validateNewPassword,
+    userControl.updatePassword
+  );
 
 module.exports = router;
