@@ -29,7 +29,7 @@ const globalErrorHandler = require("./controllers/error.controller");
 const userRoutes = require("./routes/users.routes");
 const restaurantsRoute = require("./routes/restaurants.routes");
 const mealsRoute = require("./routes/meals.routes");
-// const ordersRoute = require("./routes/orders.routes");
+const ordersRoute = require("./routes/orders.routes");
 
 // Router for users
 app.use("/api/v1/users", userRoutes);
@@ -41,10 +41,9 @@ app.use("/api/v1/restaurants", restaurantsRoute);
 app.use("/api/v1/meals", mealsRoute);
 
 // Router for orders
-// app.use("/api/v1/orders", ordersRoute);
+app.use("/api/v1/orders", ordersRoute);
 
 // ** Middleware de errores ** //
-
 app.use("*", (req, res, next) => {
   // !! Para todas las rutas que no sea correctas
   return next(

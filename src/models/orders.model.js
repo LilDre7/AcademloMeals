@@ -22,7 +22,11 @@ const Order = db.define("orders", {
     allowNull: false,
   },
   status: {
-    type: DataTypes.ENUM("active", "cancellend", "completed"),
+    type: DataTypes.ENUM(
+      "active",
+      "cancelled",
+      "completed"
+    ),
     type: DataTypes.STRING,
     allowNull: false,
     defaultValue: "active",

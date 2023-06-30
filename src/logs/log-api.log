@@ -651,3 +651,297 @@ notNull Violation: meals.restaurantId cannot be null
 [2023-06-29T21:20:39.893Z] , info: El id: 3820 que estas buscando no existe 🦊
 [2023-06-29T21:20:51.730Z] , info: You do not have permission to perform this action
 [2023-06-29T21:20:54.596Z] , info: You do not have permission to perform this action
+[2023-06-29T21:50:20.158Z] , info: La ruta es incorrecta o no valida /api/v1/orders 🚑 
+[2023-06-29T21:50:24.144Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null,
+notNull Violation: orders.quantity cannot be null
+[2023-06-29T21:50:26.809Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null,
+notNull Violation: orders.quantity cannot be null
+[2023-06-29T21:50:29.171Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null,
+notNull Violation: orders.quantity cannot be null
+[2023-06-29T21:50:34.545Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null,
+notNull Violation: orders.quantity cannot be null
+[2023-06-29T21:50:52.064Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null,
+notNull Violation: orders.quantity cannot be null
+[2023-06-29T21:51:32.331Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:51:33.580Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:51:34.606Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:51:37.173Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:52:37.240Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T21:52:39.099Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T21:53:18.037Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T21:53:19.488Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T21:54:02.387Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T21:54:03.482Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T21:55:18.257Z] , info: orders is not defined
+[2023-06-29T21:55:49.505Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:56:24.866Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:56:25.862Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T21:57:24.584Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:57:26.323Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:57:27.573Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:58:13.902Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:58:14.806Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:58:19.492Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-29T21:58:20.751Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-29T21:58:21.690Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:58:22.754Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T21:59:11.268Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-29T21:59:41.794Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-29T21:59:43.341Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-29T21:59:50.775Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:11:09.941Z] , info: restaurant.findById is not a function
+[2023-06-29T22:11:15.470Z] , info: restaurant.findById is not a function
+[2023-06-29T22:11:50.398Z] , info: no existe la columna restaurants.mealId
+[2023-06-29T22:11:54.252Z] , info: WHERE parameter "mealId" has invalid "undefined" value
+[2023-06-29T22:11:56.714Z] , info: WHERE parameter "mealId" has invalid "undefined" value
+[2023-06-29T22:11:57.962Z] , info: WHERE parameter "mealId" has invalid "undefined" value
+[2023-06-29T22:12:58.113Z] , info: WHERE parameter "mealId" has invalid "undefined" value
+[2023-06-29T22:13:33.811Z] , info: no existe la columna restaurants.mealId
+[2023-06-29T22:13:35.058Z] , info: no existe la columna restaurants.mealId
+[2023-06-29T22:13:39.780Z] , info: no existe la columna restaurants.mealId
+[2023-06-29T22:13:44.265Z] , info: no existe la columna restaurants.mealId
+[2023-06-29T22:14:49.426Z] , info: no existe la columna meals.mealId
+[2023-06-29T22:14:53.278Z] , info: no existe la columna meals.mealId
+[2023-06-29T22:15:14.549Z] , info: no existe la columna meals.mealId
+[2023-06-29T22:15:55.950Z] , info: Cannot read properties of undefined (reading 'id')
+[2023-06-29T22:17:06.616Z] , info: restaurant is not defined
+[2023-06-29T22:17:08.727Z] , info: restaurant is not defined
+[2023-06-29T22:17:09.763Z] , info: restaurant is not defined
+[2023-06-29T22:17:21.972Z] , info: restaurant is not defined
+[2023-06-29T22:17:28.893Z] , info: restaurant is not defined
+[2023-06-29T22:17:29.786Z] , info: restaurant is not defined
+[2023-06-29T22:18:07.595Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T22:18:56.412Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T22:19:02.296Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T22:19:03.951Z] , info: WHERE parameter "restaurantId" has invalid "undefined" value
+[2023-06-29T22:24:04.182Z] , info: Meal is not defined
+[2023-06-29T22:24:22.271Z] , info: Meal.findById is not a function
+[2023-06-29T22:26:01.235Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null
+[2023-06-29T22:26:04.940Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null
+[2023-06-29T22:27:00.577Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null
+[2023-06-29T22:27:02.403Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null
+[2023-06-29T22:27:03.390Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null
+[2023-06-29T22:28:01.970Z] , info: notNull Violation: orders.mealId cannot be null,
+notNull Violation: orders.userId cannot be null
+[2023-06-29T22:34:49.027Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:36:04.574Z] , info: Meal not found
+[2023-06-29T22:36:30.783Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:36:52.786Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:36:54.516Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:36:55.406Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:36:56.512Z] , info: notNull Violation: orders.userId cannot be null
+[2023-06-29T22:38:26.759Z] , info: Cannot destructure property 'id' of 'req.user' as it is undefined.
+[2023-06-29T22:38:30.229Z] , info: Cannot destructure property 'id' of 'req.user' as it is undefined.
+[2023-06-29T22:38:31.399Z] , info: Cannot destructure property 'id' of 'req.user' as it is undefined.
+[2023-06-29T22:39:26.404Z] , info: Cannot destructure property 'id' of 'req.user' as it is undefined.
+[2023-06-29T22:39:57.290Z] , info: WHERE parameter "userId" has invalid "undefined" value
+[2023-06-29T22:40:00.057Z] , info: WHERE parameter "userId" has invalid "undefined" value
+[2023-06-29T22:40:31.028Z] , info: Cannot destructure property 'id' of 'req.user' as it is undefined.
+[2023-06-30T02:35:36.174Z] , info: Cannot destructure property 'id' of 'req.sessionUser' as it is undefined.
+[2023-06-30T02:36:50.425Z] , info: 404
+[2023-06-30T02:37:50.305Z] , info: Cannot destructure property 'id' of 'req.sessionUser' as it is undefined.
+[2023-06-30T02:40:02.273Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T02:40:08.926Z] , info: Meal not found
+[2023-06-30T02:40:11.593Z] , info: Meal not found
+[2023-06-30T02:40:19.757Z] , info: Meal not found
+[2023-06-30T02:40:20.966Z] , info: Meal not found
+[2023-06-30T02:40:54.666Z] , info: Cannot read properties of null (reading 'price')
+[2023-06-30T02:41:41.154Z] , info: Meal not found
+[2023-06-30T02:41:49.568Z] , info: Meal not found
+[2023-06-30T02:41:54.211Z] , info: Meal not found
+[2023-06-30T02:41:58.849Z] , info: Meal not found
+[2023-06-30T02:42:00.759Z] , info: Meal not found
+[2023-06-30T02:42:04.775Z] , info: Meal not found
+[2023-06-30T02:48:33.726Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T02:48:36.738Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T02:51:08.198Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T02:51:43.174Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:51:44.767Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:51:46.198Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:29.020Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:30.501Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:31.610Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:32.906Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:33.764Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:44.861Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:53:46.474Z] , info: La ruta es incorrecta o no valida /api/v1/orders/1 🚑 
+[2023-06-30T02:54:52.223Z] , info: La ruta es incorrecta o no valida /api/v1/orders/ 🚑 
+[2023-06-30T02:59:04.542Z] , info: Cannot read properties of undefined (reading 'update')
+[2023-06-30T02:59:06.924Z] , info: Cannot read properties of undefined (reading 'update')
+[2023-06-30T02:59:14.041Z] , info: Cannot read properties of undefined (reading 'update')
+[2023-06-30T02:59:15.316Z] , info: Cannot read properties of undefined (reading 'update')
+[2023-06-30T02:59:16.618Z] , info: Cannot read properties of undefined (reading 'update')
+[2023-06-30T02:59:46.347Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T02:59:48.648Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T02:59:51.049Z] , info: La ruta es incorrecta o no valida /api/v1/orders/ 🚑 
+[2023-06-30T02:59:53.678Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T02:59:55.212Z] , info: La ruta es incorrecta o no valida /api/v1/orders/ 🚑 
+[2023-06-30T02:59:57.497Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T02:59:59.111Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:01.080Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:02.899Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:04.017Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:06.437Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:06.519Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:07.875Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:09.101Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:00:44.868Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:43.001Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:45.834Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:49.805Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:51.585Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:55.355Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:56.960Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:04:59.648Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:05:00.664Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:05:24.289Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:05:27.142Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:05:46.782Z] , info: La orden con el id: 100 no existe 🦊
+[2023-06-30T03:05:51.379Z] , info: La orden con el id: 100 no existe 🦊
+[2023-06-30T03:05:55.086Z] , info: La orden con el id: 1 no existe 🦊
+[2023-06-30T03:05:57.185Z] , info: La orden con el id: 2 no existe 🦊
+[2023-06-30T03:05:59.302Z] , info: La orden con el id: 3 no existe 🦊
+[2023-06-30T03:06:01.732Z] , info: La orden con el id: 30 no existe 🦊
+[2023-06-30T03:06:04.682Z] , info: La orden con el id: 17 no existe 🦊
+[2023-06-30T03:06:08.009Z] , info: La orden con el id: 2 no existe 🦊
+[2023-06-30T03:06:09.626Z] , info: La orden con el id: 244 no existe 🦊
+[2023-06-30T03:06:13.371Z] , info: La orden con el id: 40 no existe 🦊
+[2023-06-30T03:06:15.100Z] , info: La orden con el id: 40 no existe 🦊
+[2023-06-30T03:06:17.810Z] , info: La ruta es incorrecta o no valida /api/v1/orders/ 🚑 
+[2023-06-30T03:06:19.792Z] , info: La orden con el id: 22 no existe 🦊
+[2023-06-30T03:07:02.361Z] , info: La orden con el id: 22 no existe 🦊
+[2023-06-30T03:11:49.376Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:20:43.128Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:22:55.142Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:22:57.021Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:22:58.239Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:22:59.672Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:23:01.904Z] , info: La ruta es incorrecta o no valida /api/v1/orders/ 🚑 
+[2023-06-30T03:23:05.850Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:23:55.306Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:24:39.517Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:24:47.174Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:24:48.679Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:24:50.193Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:25:28.178Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:25:30.446Z] , info: La orden ya fue completada o cancelada 🦊 
+[2023-06-30T03:27:04.857Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:27:47.059Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:28:14.681Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:29:44.188Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:29:54.981Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:01.928Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:03.330Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:05.397Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:06.715Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:08.619Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:09.682Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:30:27.046Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:31:07.054Z] , info: Cannot read properties of null (reading 'status')
+[2023-06-30T03:31:18.738Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:34:06.496Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:34:08.396Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:34:09.441Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:34:10.595Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:34:12.010Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:34:52.934Z] , info: La orden con el id: 200 no existe 🦊
+[2023-06-30T03:34:57.078Z] , info: La orden con el id: 2 no existe 🦊
+[2023-06-30T03:37:13.066Z] , info: You are not logged in! Please log in to get access
+[2023-06-30T03:37:20.152Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:38:22.005Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:57:12.466Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:14.400Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:34.850Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:40.690Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:46.538Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:50.002Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:53.634Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:54.650Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:57:56.089Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:58:02.752Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:58:03.809Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:58:04.775Z] , info: No se pudo crear la orden intente nuevamente 🦊
+[2023-06-30T03:59:24.733Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:59:26.616Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:59:33.191Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:59:47.353Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T03:59:49.494Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T04:00:00.910Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T04:00:28.414Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T04:05:07.906Z] , info: Include unexpected. Element has to be either a Model, an Association or an object.
+[2023-06-30T04:05:10.531Z] , info: Include unexpected. Element has to be either a Model, an Association or an object.
+[2023-06-30T04:05:11.569Z] , info: Include unexpected. Element has to be either a Model, an Association or an object.
+[2023-06-30T04:07:17.770Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:07:22.051Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:08:22.867Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:08:25.785Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:08:27.631Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:08:33.175Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:08:34.250Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:08:45.201Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:08:46.200Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:09:39.984Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:09:42.212Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:16:12.944Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:16:14.740Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:16:15.818Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:16:16.975Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:17:27.865Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:17:39.253Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:21:19.181Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:21:21.872Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:21:23.734Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:21:54.603Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:21:56.668Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:21:59.839Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:22:01.416Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:22:02.676Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:22:07.181Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:22:33.525Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:23:53.878Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:23:55.141Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:23:56.759Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:23:57.787Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:37:35.605Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:38:01.940Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:39:53.678Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:43:04.039Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:50:46.622Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:50:48.286Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:50:52.583Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:51:27.860Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:51:34.048Z] , info: no existe la columna «restaurantId»
+[2023-06-30T04:51:50.082Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:51:51.198Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:52:40.043Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:54:59.954Z] , info: no existe la columna restaurants.restaurantId
+[2023-06-30T04:56:53.654Z] , info: no existe la columna orders.restaurantId
+[2023-06-30T04:57:09.728Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:57:11.251Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:57:34.864Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:57:36.028Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:57:37.384Z] , info: restaurants is not associated to orders!
+[2023-06-30T04:57:42.764Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T04:57:44.120Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T04:57:47.418Z] , info: La order ya fue completada o cancelada 🦊
+[2023-06-30T04:59:37.508Z] , info: sessionUser is not defined
+[2023-06-30T04:59:39.367Z] , info: sessionUser is not defined
+[2023-06-30T04:59:40.366Z] , info: sessionUser is not defined
+[2023-06-30T04:59:41.600Z] , info: sessionUser is not defined
+[2023-06-30T05:00:24.261Z] , info: restaurants is not associated to orders!
+[2023-06-30T05:00:49.430Z] , info: restaurants is not associated to orders!
+[2023-06-30T05:01:46.145Z] , info: restaurants is not associated to orders!
+[2023-06-30T05:01:47.845Z] , info: restaurants is not associated to orders!
+[2023-06-30T05:01:48.912Z] , info: restaurants is not associated to orders!
+[2023-06-30T05:02:10.483Z] , info: restaurants is not associated to orders!
+[2023-06-30T05:02:13.632Z] , info: restaurants is not associated to orders!
