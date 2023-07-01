@@ -79,3 +79,18 @@ exports.restrictTo = (...roles) => {
     next();
   };
 };
+
+// Solo el usuario que hizo la orden solamente puede realizar estas operaciones
+exports.protectOrderOwner = catchAsync(
+  async (req, res, next) => {
+    const { user, sessionUser } = req;
+
+    if (user.id !== sessionUser.id) {
+      return next(
+        new AppError("You do not own this account.", 401)
+      );
+    }
+
+    next();
+  }
+);

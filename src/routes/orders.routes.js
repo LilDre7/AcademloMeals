@@ -8,6 +8,9 @@ const order = require("../controllers/orders.controller");
 // Importando el auth de los middlewars
 const auth = require("../middlewares/auth.middleware");
 
+// Importando para validar si el usuario esta existe
+const validate = require("../middlewares/userValidate.middleware");
+
 // Direccion en PostMan
 // http://localhost:8080/api/v1/orders
 

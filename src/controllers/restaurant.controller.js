@@ -18,7 +18,7 @@ exports.createRestaurant = catchAsync(
     if (!name || !address || !rating) {
       return next(
         new AppError(
-          "Todos los camnpos son requeridos para crear un restaurante 🦊 ",
+          "Todos los campos son requeridos para crear un restaurante 🦊 ",
           400
         )
       );

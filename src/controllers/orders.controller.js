@@ -44,37 +44,35 @@ exports.createOrder = catchAsync(async (req, res, next) => {
 });
 
 // == GET ALL ORDERS OF USERS
-exports.getOrderUser = catchAsync(
-  async (req, res, next) => {
-    // ** Obtener todas las órdenes del usuario
-    const { id } = req.sessionUser;
+exports.getOrderUser = catchAsync(async (req, res, next) => {
+  // ** Obtener todas las órdenes del usuario
+  const { id } = req.sessionUser;
 
-    const orders = await Order.findAll({
-      where: {
-        userId: id,
-        status: "active",
+  const orders = await Order.findAll({
+    where: {
+      userId: id,
+      status: "active",
+    },
+    include: [
+      {
+        model: Meal,
+        attributes: ["name", "price"],
       },
-      include: [
-        {
-          model: Meal,
-          attributes: ["name", "price"],
-        },
-        // {
-        //   model: Restaurant,
-        //   attributes: ["name", "address"],
-        // },
-      ],
-    });
+      // {
+      //   model: Restaurant,
+      //   attributes: ["name", "address"],
+      // },
+    ],
+  });
 
-    res.status(200).json({
-      status: "success",
-      message: "Ordenes obtenidas con exito 🍔🥗🍳 ",
-      data: {
-        orders,
-      },
-    });
-  }
-);
+  res.status(200).json({
+    status: "success",
+    message: "Ordenes obtenidas con exito 🍔🥗🍳 ",
+    data: {
+      orders,
+    },
+  });
+});
 
 // == UPDATE ORDER BY ID
 exports.udpateOrder = catchAsync(async (req, res, next) => {
@@ -84,7 +82,7 @@ exports.udpateOrder = catchAsync(async (req, res, next) => {
   const order = await Order.findOne({
     where: {
       id: id,
-      status: "active",
+      status: ["active", "completed"],
     },
   });
 
@@ -92,9 +90,17 @@ exports.udpateOrder = catchAsync(async (req, res, next) => {
   if (order === null)
     next(
       new AppError(
-        "La order ya fue completada o cancelada 🦊"
+        `La order ya fue cancelada o el id: ${id} no existe 🦊`
       ),
       404
+    );
+
+  // Verificar si la orden esta completada si esta completa enviar un mensaje
+  if (order.status === "completed")
+    next(
+      new AppError(
+        `La order ya fue completada con id: ${id} felicidades! 🥳🎉 `
+      )
     );
 
   await order.update({
@@ -119,28 +125,33 @@ exports.deleteOrder = catchAsync(async (req, res, next) => {
   const order = await Order.findOne({
     where: {
       id: id,
-      status: "active",
+      status: ["active", "cancelled"],
     },
   });
 
   // Validar que la orden este con status active antes de realizar la operación, enviar error en caso de que no tenga este status.
-  if (order === null)
-    next(
-      new AppError(
-        "La order ya fue completada o cancelada 🦊"
-      ),
-      404
-    );
+  if (order === null) {
+    return res.status(404).json({
+      status: "error",
+      message: `La orden ya fue completada o el ID: ${id} no existe 🦊`,
+    });
+  }
 
+  if (order.status === "cancelled") {
+    return res.status(200).json({
+      status: "success",
+      message: `La orden con el id: ${id} ya está cancelada ⚔️🍳`,
+    });
+  }
+
+  // Si la orden no está cancelada, marcarla como cancelada y enviar una respuesta exitosa
   await order.update({
     status: "cancelled",
   });
 
   res.status(200).json({
-    data: {
-      status: "success",
-      message: "La order fue cancelada con exito ⚔️🍳 ",
-      order: order,
-    },
+    status: "success",
+    message: "La orden fue cancelada con éxito ⚔️🍳",
+    order: order,
   });
 });
