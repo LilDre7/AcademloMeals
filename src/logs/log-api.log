@@ -1304,3 +1304,12 @@ notNull Violation: orders.userId cannot be null
 [2023-07-01T05:38:09.575Z] , info: La order ya fue cancelada con id: 3
 [2023-07-01T05:38:11.201Z] , info: La order ya fue cancelada con id: 3
 [2023-07-01T05:38:12.137Z] , info: La order ya fue cancelada con id: 3
+[2023-07-03T15:38:47.368Z] , info: Meal is not defined
+[2023-07-03T15:38:49.043Z] , info: Meal is not defined
+[2023-07-03T15:39:12.200Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-07-03T15:39:16.724Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-07-03T15:42:01.814Z] , info: User is not defined
+[2023-07-03T15:42:03.594Z] , info: User is not defined
+[2023-07-03T15:44:09.715Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-07-03T15:44:11.711Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»
+[2023-07-03T15:44:16.272Z] , info: la sintaxis de entrada no es válida para tipo boolean: «active»

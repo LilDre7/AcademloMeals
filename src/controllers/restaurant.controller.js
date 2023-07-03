@@ -2,6 +2,7 @@ const catchAsync = require("../utils/catchAsync");
 const restaurant = require("../models/restaurants.model");
 const AppError = require("../utils/appError");
 const Review = require("../models/reviews.model");
+const User = require("../models/users.model");
 
 // == CREATE
 exports.createRestaurant = catchAsync(
@@ -54,6 +55,19 @@ exports.getAllRestaurants = catchAsync(
 
     const allRestaurants = await restaurant.findAll({
       where: { status: "active" },
+      attributes: ["id", "name", "address", "rating"],
+      include: [
+        {
+          model: Review,
+          where: { status: "active" },
+          attributes: ["comment", "rating"],
+          include: {
+            model: User,
+            where: { status: true },
+            attributes: ["name", "email"],
+          },
+        },
+      ],
     });
 
     res.status(200).json({
